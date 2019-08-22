@@ -1,18 +1,28 @@
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    margin-top: -1%;
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url(../images/seigaiha.png)
+    background-image: url(../images/seigaiha.png);
+    margin-bottom: 4%;
 }
 
 h1 {
     color: #ffffff;
     background-color: #4aaaa5;
-    padding: 6px;
+    padding: 20px;
+    margin-top: -2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
     color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul {
@@ -20,9 +30,8 @@ ul {
     margin-left: 10%;
     margin-right: 10%;
     width: 960px;
-    padding: 0;
+    padding: 0px;
     overflow: hidden;
-    border: 1px solid #cccccc;
     background-color: #ffffff;
 }
   
@@ -43,6 +52,10 @@ li a:hover:not(.active) {
     background-color: #dddddd;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .name {
     position: absolute;
     top: 0.5%;
@@ -53,8 +66,9 @@ li a:hover:not(.active) {
 .main {
     margin-left: 10%;
     height: 100%;
-    width: 960px;
+    width: 942px;
     background-color:#ffffff;
+    padding: 10px;
 }
 
 .footer {
@@ -62,12 +76,47 @@ li a:hover:not(.active) {
     left: 0;
     bottom: 0;
     width: 100%;
+    font-size: 14px;
     background-color: #666666;
-    color: #ffffff;
+    color: #cccccc;
     border-top: 8px solid #4aaaa5;
     text-align: center;
 }
 
-#self {
+.biopic {
     float: left;
+    padding: 1%;
+}
+
+.bio {
+    color: #777777;
+}
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.wrapper {
+    margin-left: 30%;
+}
+
+.boxset {
+    margin: 2px;
+    display: flex;
+}
+
+.box {
+    margin-right: 1%;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 0%;
+    width: 200px;
 }
