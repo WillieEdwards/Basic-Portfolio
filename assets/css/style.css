@@ -1,9 +1,8 @@
 body {
-    background-color: #ffffff;
-    border-color: #dddddd;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url(../images/seigaiha.png)
 }
 
 h1 {
@@ -20,6 +19,7 @@ ul {
     list-style-type: none;
     margin-left: 10%;
     margin-right: 10%;
+    width: 960px;
     padding: 0;
     overflow: hidden;
     border: 1px solid #cccccc;
@@ -54,6 +54,7 @@ li a:hover:not(.active) {
     margin-left: 10%;
     height: 100%;
     width: 960px;
+    background-color:#ffffff;
 }
 
 .footer {
