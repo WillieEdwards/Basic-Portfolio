@@ -1,6 +1,9 @@
 body {
     background-color: #ffffff;
     border-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1 {
@@ -15,7 +18,8 @@ h2 {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 0;
     overflow: hidden;
     border: 1px solid #cccccc;
@@ -39,9 +43,10 @@ li a:hover:not(.active) {
     background-color: #dddddd;
 }
 
-.header {
+.name {
     position: absolute;
-    top: -2.3%;
+    top: 0.5%;
+    left: 0.5%;
     margin-left: 10%;
 }
 
@@ -53,7 +58,6 @@ li a:hover:not(.active) {
 
 .footer {
     position: fixed;
-    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -61,4 +65,8 @@ li a:hover:not(.active) {
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
     text-align: center;
+}
+
+#self {
+    float: left;
 }
