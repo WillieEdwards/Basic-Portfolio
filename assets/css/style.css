@@ -23,6 +23,7 @@ h1 {
 h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
 }
 
 ul {
