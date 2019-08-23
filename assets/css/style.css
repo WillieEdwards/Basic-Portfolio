@@ -64,6 +64,8 @@ p {
 }
 
 .main {
+    border: 1px solid #cccccc;
+    margin-bottom: 2%;
     margin-left: 10%;
     height: 100%;
     width: 942px;
@@ -119,4 +121,9 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     bottom: 0%;
     width: 200px;
+}
+
+.pipe {
+    margin-top: 1.25%;
+    color: #cccccc;
 }
