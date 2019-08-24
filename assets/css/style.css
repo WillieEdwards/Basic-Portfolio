@@ -28,6 +28,7 @@ h2 {
 
 ul {
     list-style-type: none;
+    margin-left: 11%;
     width: 960px;
     padding: 0px;
     overflow: hidden;
